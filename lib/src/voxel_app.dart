@@ -18,7 +18,7 @@ request! :-)
   @override
   Future<void> onLoad() async {
     final mapFile = List<int>.from(
-        json.decode(await rootBundle.loadString('maps/hills.json')));
+        json.decode(await rootBundle.loadString('assets/maps/hills.json')));
 
     colors = generateMapColors();
 
